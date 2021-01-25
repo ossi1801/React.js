@@ -1,5 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
+
   text-align: center;
+  background-color: #282c34;
+ /* font-family: 'Yusei Magic', sans-serif;*/
+ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .App-logo {
@@ -15,7 +23,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +34,30 @@
 
 .App-link {
   color: #61dafb;
+}
+.floaters{
+  float: left;
+}
+.contactmeDiv{
+  /*float: left;*/
+  
+  position: relative;
+  color: #000000;
+  margin-top: 20rem;
+  padding-right: 1em;
+  margin-left: 2rem;
+}
+.TextBlock{
+  padding-left: 2rem;
+  font-size: calc(10px + 2vmin);
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 10rem;
+  /*fontsize: "2vmin"*/
+}
+.icons{
+  width: 2rem;
+  padding-right: 4px;
 }
 
 @keyframes App-logo-spin {
